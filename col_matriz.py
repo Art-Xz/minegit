@@ -1,17 +1,16 @@
-matriz = []
 indice = int(input())
 operacao = input()
-linha = []
+matriz = []
 soma = 0.0
 for i in range(12):
     linha = []
     for c in range(12):
-        num = float(input())
-        linha.append(num)
+        valor = float(input())
+        linha.append(valor)
     matriz.append(linha)
 
 for j in range(12):
-        soma+=matriz[indice][j]
+    soma+=matriz[j][indice]
 
 if operacao == "S":
     print(f"{soma:.1f}")

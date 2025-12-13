@@ -6,6 +6,6 @@ for i in range(N-1):
     if C != test:
         counter +=1
     test = C
-print("-"*30)
+
 print(counter)
 

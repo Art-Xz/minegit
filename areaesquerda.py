@@ -12,7 +12,7 @@ for i in range(12):
 
 for colunas in range(12):
     for linhas in range(12):
-        if colunas>linhas and colunas+linhas > 11:
+        if colunas<linhas and colunas+linhas < 11:
             soma += matriz[linhas][colunas]
             counter+=1
 

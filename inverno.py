@@ -1,8 +1,20 @@
 a,b,c = map(int,input().split())
 
-if b<a:
-    print(":)" if c<=b or abs(b-c)<abs(a-b) else ":(")
-elif b > a:
-    print(":)" if c >= b or abs(b-c)<abs(a-b) else ":(")
-else:
-    print(":)"if c > b else ":(")
+if(b<a and c>=b):
+    print(":)")
+elif(b>a and c<=b):
+    print(":(")
+elif(b>a and c >b and c-b<b-a):
+    print(":(")
+elif(b>a and c >b and c-b>=b-a):
+    print(":)")
+elif(b<a and c<b and b-c < a-b):
+    print(":)")
+elif(b<a and c<b and b-c >= a-b):
+    print(":(")
+elif(a==b):
+    if(c>b):
+        print(":)")
+    else:
+        print(":(")
+

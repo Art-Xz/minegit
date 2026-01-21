@@ -16,17 +16,3 @@ else:
             else:
                 print("N")
 
-
-'''
-if a > b+c:
-    print("N")
-elif a > c+d:
-    print("N")
-elif a > b+d:
-    print("N")
-elif b > a+c:
-    print("N")
-elif b > c+d:
-    print("N")
-elif c > a+b:
-    print("N")'''

@@ -4,9 +4,9 @@ for i in range(n):
     t = int(input())
     passar = (ano) - t
     if passar<0:
-        print(f"{abs(passar-1)} A.C")
+        print(f"{abs(passar-1)} A.C.")
     if passar==0:
-        print(f"{1} D.C")
+        print(f"{1} A.C.")
     if passar>0:
-        print(f"{passar} D.C")
+        print(f"{passar} D.C.")
     

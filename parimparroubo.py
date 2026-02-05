@@ -19,5 +19,4 @@ else:
     if r == 0 and a == 1:
         print("Jogador 1 ganha!")
     if r == 1 and a == 1:
-        print("Jogador 2 ganha!")
-
+        print("Jogador 2 ganha!")        

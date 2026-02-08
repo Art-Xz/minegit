@@ -1,7 +1,7 @@
 n,m = map(int,input().split())
 init = n
 
-for i in range(5):
+for i in range(m):
     acao= input()
     if acao == "fechou":
         init-=1
